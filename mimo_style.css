@@ -3,7 +3,7 @@ body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #ba52ee, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -68,20 +68,12 @@ button {
     background-color: #D9E8FB;
     margin: 10px;
 }
-/*.clickpad {
-    width: 20%;
-    height:100px;
-    background-color: #D9E8FB;
-    margin: 10px;
-}*/
 
 .pink {
     background-color: pink;
 }
 
-/*.touchpad {
-    width: 20%;
-    height:100px;
-    background-color: #D9E8FB;
-    margin: 10px;
-}*/
+.scrolltext {
+    width: 40%;
+    height: 200px;
+}

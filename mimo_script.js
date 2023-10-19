@@ -51,3 +51,14 @@ function touchpadcolor() {
 }
 
 touchPad.addEventListener("touchstart", touchpadcolor);
+
+const terms = document.querySelector(".scrolltext");
+
+function checkReading () {
+  const read = terms.scrollHeight - Math.round(terms.scrollTop) === terms.clientHeight;
+  if(read){
+   document.getElementsByTagName("p")[2].innerHTML = "Thank You";
+  }
+}
+
+terms.addEventListener("scroll", checkReading);
