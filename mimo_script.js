@@ -47,7 +47,7 @@ pad.addEventListener("click", padcolorchange);
 
 const touchPad = document.querySelector(".touchpad");
 function touchpadcolor() {
-    touchPad.classList.toggle("pink")
+    touchPad.classList.add("pink")
 }
 
 pad.addEventListener("touchstart", touchpadcolor);
