@@ -50,4 +50,4 @@ function touchpadcolor() {
     touchPad.classList.add("pink")
 }
 
-pad.addEventListener("touchstart", touchpadcolor);
+touchPad.addEventListener("touchstart", touchpadcolor);
