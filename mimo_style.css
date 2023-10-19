@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-body {
+/*body {
     background: linear-gradient(-45deg, #ee7752, #ba52ee, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -19,6 +19,10 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}*/
+
+.textsize {
+    font-size: 20px;
 }
 
 .bold {
@@ -58,8 +62,8 @@ button {
 }
 
 .row {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .pad {
@@ -76,4 +80,56 @@ button {
 .scrolltext {
     width: 40%;
     height: 200px;
+}
+
+.heart {
+    width: 36px;
+    height: 36px;
+    position: relative;
+/*    margin: 1em auto;*/
+/*    transform-origin: 50% 50%;*/
+/*    transform: rotate(45deg) scale(1);*/
+/*    cursor: pointer;*/
+/*    background: transparent;*/
+/*    border: none !important;*/
+/*    font-size: 0;*/
+}
+
+/*.heart:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: tomato;
+  width: inherit;
+  height: 24px;
+  top: 12px;
+  left: 0;
+}*/
+
+/*.heart:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: tomato;
+  width: 24px;
+  top: 0;
+  left: 12px;
+  height: inherit;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}*/
+
+/*.x1lliihq {
+    display: block;
+}*/
+
+.x1n2onr6 {
+    position: relative;
+    top: 8px;
+}
+
+.svgscale {
+    transform: scale(1.3);
 }
