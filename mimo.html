@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mimo_ref</title>
+    <link rel="stylesheet" type="text/css" href="mimo_style.css">
+</head>
+<body>
+    <div id="buttons">
+        <div class="row">
+            <button onclick="toggleBold()">Bold</button>
+            <button onclick="toggleItalic()">Italic</button>
+        </div>
+        <div class="row">
+            <button onclick="toggleUnderline()">Underline</button>
+            <button onclick="toggleMonospace()">Monospace</button>
+        </div>
+        <div class="row">
+            <button onclick="removeFormat()">Remove Format</button>
+        </div>
+    </div>
+    <br>
+    <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+    <button id = "pub">Publish Web</button>
+    <p id="prompt"></p>
+    <div class="row">
+        <div class="pad clickpad">click to change color</div>
+        <div class="pad touchpad">touch to change color</div>
+    </div>
+    <a href="javascript:void(0)">click here. not thing happen</a>
+    <a href="javascript:void(alert('Warning!!!'))">點我!</a>
+    <a id='linkin' href="javascript:void(document.querySelector('#linkin').style.color = 'purple')">Link</a>
+    <script type="text/javascript" src="mimo_script.js"></script>
+</body>
+</html>
